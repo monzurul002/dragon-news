@@ -1,3 +1,4 @@
+import FindUs from "../components/FindUs/FindUs";
 import Header from "../components/Header/Header";
 import LatestNews from "../components/LatestNews/LatestNews";
 import Navbar from "../components/Navbar/Navbar";
@@ -22,6 +23,7 @@ const HomeLayout = () => {
         <section className="col-span-6"> Main </section>
         <aside className="col-span-3">
           <RightNav />
+          <FindUs />
         </aside>
       </main>
     </div>
